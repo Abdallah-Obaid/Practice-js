@@ -1,5 +1,7 @@
 var today = new Date();
- var hourNow = today.getHours();
+console.log(today);
+var hourNow = today.getHours();
+console.log(hourNow);
 var greeting; 
  
 if (hourNow > 18) {
@@ -11,3 +13,4 @@ if (hourNow > 18) {
   } else {     greeting = 'Something went wrong!';
   }
  document.write('<h3>'+greeting+'</h3>');
+//  the reason is to send welcome massage when some one enter the wibsite
